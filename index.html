@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+
+</head>
+
+<body class="bg-teal-600">
+
+    <div class="main-container w-full h-screen border border-white flex items-center justify-center flex-col">
+        <!-- Msg Container-->
+        <div class=" mb-5   flex-col items-center justify-center hidden" id="msg-container">
+            <div id="winner-place" class="text-2xl text-center mb-3">Congratualtion Winner is </div>
+            <button id="new-game" class="bg-white p-4 rounded-lg ">New Game</button>
+        </div>
+
+        <div class="matrix w-64 h-60   grid grid-cols-3 place-items-center">
+            <!-- First Row  -->
+            <button
+                class="col1 w-16 h-16 border cursor-pointer flex items-center justify-center gridBtn rounded-xl bg-white  text-3xl ">
+
+            </button>
+            <button
+                class="col2 w-16 h-16 border cursor-pointer flex items-center justify-center gridBtn rounded-xl bg-white text-3xl ">
+            </button>
+            <button
+                class="col3 w-16 h-16 border cursor-pointer flex items-center justify-center gridBtn rounded-xl bg-white text-3xl">
+            </button>
+
+
+            <!-- Second Row -->
+            <button
+                class="col1 w-16 h-16 border cursor-pointer flex items-center justify-center gridBtn rounded-xl bg-white text-3xl">
+            </button>
+            <button
+                class="col2 w-16 h-16 border cursor-pointer flex items-center justify-center gridBtn rounded-xl bg-white text-3xl">
+            </button>
+            <button
+                class="col3 w-16 h-16 border cursor-pointer flex items-center justify-center gridBtn rounded-xl bg-white text-3xl">
+            </button>
+
+            <!-- Third Row -->
+
+            <button
+                class="col1 w-16 h-16 border cursor-pointer flex items-center justify-center gridBtn rounded-xl bg-white text-3xl">
+            </button>
+            <button
+                class="col2 w-16 h-16 border cursor-pointer flex items-center justify-center gridBtn rounded-xl bg-white text-3xl">
+            </button>
+            <button
+                class="col3 w-16 h-16 border cursor-pointer flex items-center justify-center gridBtn rounded-xl bg-white text-3xl">
+            </button>
+
+
+        </div>
+        <button class="p-5 bg-yellow-500 rounded-xl mt-5 " id="resetBtn">Reset Game</button>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
